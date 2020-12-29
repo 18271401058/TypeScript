@@ -16,7 +16,7 @@ class Product {
     }
 }
 
-// 这是一个工厂 替代new 操作    // 项目中生成字段
+// 这是一个工厂 替代new 操作    // 根据Type 生成不同类型的字段
 class Creator {
     constructor (name) {
         return new Product(name);
